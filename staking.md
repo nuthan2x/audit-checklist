@@ -3,7 +3,7 @@
 1. Reward distribution - is it implemented correctly according to docs/comments ? 
 2. User issue - can a staker withdraw more than he should (ex:sandwichers) ? Or does he deserve more than he got when reward claimed/LP burn ?
 3. Overflow/underflow protected -  ( int256 unsafe, safe downcasting ?? )
-4. Rounding issues - ( unsafe round down/ up, precision loss ??) Loop as an attacker to leverage the rounding issue ? Can avoid paying fee and unsatke/claim the reward ?
+4. Rounding issues - ( unsafe round down/ up, precision loss ??) Loop as an attacker to leverage the rounding issue ? Can avoid paying fee and unstake/claim the reward ?
 5. Abusing staking duration - (block.number/timestamp dependence) ( initially `last claimed` value will be zero, so abuse the default state ??)
 6. `BalanceOf` attack - manipulate balance to either cause DOS/inflation attack / second LP paying huge inflated price/ set the system to  state where the `require` statement fails internally/ force send/ flashloans/ `sync()` ? / donation attack.
 7. LP mint/burn - these actions should do state changes in polar opposite., check if any state needs update
