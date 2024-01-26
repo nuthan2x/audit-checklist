@@ -1,3 +1,5 @@
+active on twitter := [nuthan2x](twitter.com/nuthan2x)
+
 ## Compilation of auditing checklists
 
 1. **staking**
