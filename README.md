@@ -1,4 +1,4 @@
-active on twitter := [nuthan2x](twitter.com/nuthan2x)
+active on twitter := [nuthan2x](https://twitter.com/nuthan2x)
 
 ## Compilation of auditing checklists
 
